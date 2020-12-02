@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,13 +15,15 @@
 
     <nav>
         <a class="navbar-brand" href="#">Noticias</a>
-        
+
         <h1 class="color">
+
+
             <section class="oculto">Hello Word</section>
-            
+
             <section class="section">Otra forma</section>
             <section class="titulo">Algo dentro</section>
-           
+
 
         </h1>
 
@@ -65,7 +65,12 @@
             </form>
         </div>
     </nav>
-    <script type="text/javascript" src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".oculto").fadeIn();
+        });
+    </script>
 </body>
 
 </html>
