@@ -3,15 +3,38 @@
 const { type } = require("os");
 
 
+function showAlert() {
+    let x = document.getElementsByClassName("titulo");
+ 
+    fetch("http://api.icndb.com/jokes/random", {
 
-function mostrarEvento() {
+ 
+})
+
+.then(response => response.json())
+
+.then(data => (x[0].innerHTML = data.value.joke))
+
+.catch(error  => x[0].style.color = "red");
+} 
+/*
+como veniamos haciendo, agarramos el elemento que queremos modificar
+hacemos el llamado fetch para agarrar los datos
+si no tira errores, modificamos el valor del elemento con el chiste que trajimos
+si agarra un errror, simplemente cambiamos a rojo el color del elemento que ya tenemos
+pero necesito que entiendas el codigo
+explicame paso a paso como ese codigo haria lo que acabo de deicr
+
+
+/*function mostrarEvento() {
     let x = document.getElementsByClassName("titulo");
     
 
     fetch(" http://api.icndb.com/jokes/random.", {
         /*
         */
-    })
+
+        /*    })
 
     .then(response => response.json())
     
@@ -26,7 +49,7 @@ function mostrarEvento() {
         }
         */
 
-        data.type == "success" ?
+  /*      data.type == "success" ?
 
         x[0].style.color = "green" : x[0].style.color = "red";
         x[0].innerHTML = data.type;
@@ -34,7 +57,6 @@ function mostrarEvento() {
     
     .catch(error  => console.error(error));
 }
-
 
 
 
