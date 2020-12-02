@@ -1,0 +1,11 @@
+section{
+    text-align: center;
+    color:blue;  
+} 
+
+  
+.oculto{
+    display: none;
+    transition: display 3s;
+}
+
