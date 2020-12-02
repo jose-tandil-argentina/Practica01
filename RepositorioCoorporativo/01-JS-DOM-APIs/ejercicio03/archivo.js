@@ -1,7 +1,3 @@
-"use strict";
-
-const { type } = require("os");
-
 
 function showAlert() {
     let x = document.getElementsByClassName("titulo");
