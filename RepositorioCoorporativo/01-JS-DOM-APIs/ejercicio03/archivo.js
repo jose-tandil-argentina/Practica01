@@ -17,12 +17,18 @@ function mostrarEvento() {
     
     .then(data => { 
         debugger
-
+       
+        /*
         if(type == "success"){
             x[0].style.color = "red"  
         }else if( type != "success"){
             x[0].style.color = "green"
         }
+        */
+
+        data.type == "success" ?
+
+        x[0].style.color = "green" : x[0].style.color = "red";
         x[0].innerHTML = data.type;
     })
     
