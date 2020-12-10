@@ -11,13 +11,9 @@ marNumeros(50,50);
 
 
 
-function llamar(){
 
-console.log("!Hola mundo¡");
+document.write("!Hola mundo¡");
 
-}
-
-llamar();
 
 
 /*

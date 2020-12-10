@@ -1,3 +1,3 @@
 
 
-alert("buenas tardes")
+console.log("bienvenido");

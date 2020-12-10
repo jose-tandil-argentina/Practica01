@@ -1,6 +1,6 @@
 function Opciones() {
 
-    var opciones = document.getElementsByName("eleccion");
+    let opciones = document.getElementsByName("eleccion");
     console.log(opciones);
     for (let i = 0; i < opciones.length; i++) {
 
