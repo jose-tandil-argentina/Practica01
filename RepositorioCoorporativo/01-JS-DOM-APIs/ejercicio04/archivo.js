@@ -7,20 +7,16 @@ function showAlert() {
 
 
     fetch("https://api.github.com/search/repositories?q=javascript", {
-        
+
 
     })
 
         .then(response => response.json())
 
-        .then(data => {
-
-            
-            (x[0].innerHTML = data.documentation_url)
 
 
-
-        })
-
-
+        .then(data =>
+            (console.log(data)
+            )
+        )
 } 
