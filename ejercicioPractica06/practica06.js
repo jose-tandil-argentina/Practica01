@@ -1,20 +1,22 @@
 
-let num1 = parseInt(document.getElementById("num1").value);
-let num2 = parseInt(document.getElementById("num2").value);
+function mayorNum() {
 
-function ElmayorEs() {
+    let num1 = parseInt(document.getElementById("num1").value);
+    let num2 = parseInt(document.getElementById("num2").value);
+  
     if (num1 && num2) {
-        if (num1 >= num2) {
-            if (num1 == num2) {
-                alert("Los numeros son iguales");
-            } else {
-                alert("El num1 es mayor");
-            }
+      if (num1 >= num2) {
+        if (num1 == num2) {
+          alert("Los numeros son iguales")
         } else {
-            alert("El num2 es mayor");
+          alert("El num1 es mayor")
         }
+      } else {
+        alert("El num2 es mayor")
+      }
     } else {
-        alert("Uno de los numeros no se relleno");
+      alert("Uno de los numeros no se relleno")
     }
-
-}
+  
+  }
+  
