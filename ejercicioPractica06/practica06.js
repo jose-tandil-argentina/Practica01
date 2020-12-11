@@ -6,9 +6,6 @@ function ElmayorEs() {
     if (num1 && num2) {
         if (num1 >= num2) {
             if (num1 == num2) {
-                if(num1 != num2){
-                    alert("numero invalido");
-                }
                 alert("Los numeros son iguales");
             } else {
                 alert("El num1 es mayor");
