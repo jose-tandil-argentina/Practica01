@@ -1,11 +1,14 @@
-function Variasopciones() {
 
-    let opciones = document.getElementsByName("eleccion");
-    
+
+function Opcionalegir() {
+
+    var opciones = document.getElementsByName("eleccion");
     console.log(opciones);
-
     for (let i = 0; i < opciones.length; i++) {
-        alert(opciones[i].value);
-    }
 
+        if (opciones[i].checked) {
+            alert(opciones[i].value);
+        }
+
+    }
 }
