@@ -1,4 +1,4 @@
-function Opciones() {
+function Variasopciones() {
 
     let opciones = document.getElementsByName("eleccion");
     console.log(opciones);
