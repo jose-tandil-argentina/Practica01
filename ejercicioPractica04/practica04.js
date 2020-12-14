@@ -1,10 +1,13 @@
 
-
+/* probar metodo que funcione*/ 
 function Opcionalegir() {
 
-    var opciones = document.getElementsByName("eleccion");
+    let opciones = document.getElementsByClassName("eleccion");
     console.log(opciones);
     for (let i = 0; i < opciones.length; i++) {
+
+        //opciones = console.log("la opcion");
+
 
         if (opciones[i].checked) {
             alert(opciones[i].value);

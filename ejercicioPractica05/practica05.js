@@ -1,8 +1,8 @@
 function aniadirTexto() {
+/* no toma el getElement*/
+  let texto = document. getelementsbyclassname("texto")
+  let mostrar = document. getelementsbyclassname("mostrar_texto")
 
-    let texto = document.getElementById("texto")
-    let mostrar = document.getElementById("mostrar_texto")
-
-    mostrar.innerHTML += texto.value;
+  mostrar.innerHTML += texto.value;
 
 }
