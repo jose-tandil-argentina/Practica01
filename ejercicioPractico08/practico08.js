@@ -8,10 +8,10 @@ function insertarNombre() {
         alert("el nombre no se puede ingresar vacio");
     } else {
 
-        
+
         let cantOpciones= "<li>" + nombre + "</li>";
 
-        let listaDeNombres = document.getElementsByClassName("")
+        let listaDeNombres = document.getElementsByClassName("");
         
         listaDeNombres.innerHTML += listaDeNombres;
         alert("nombre ingresado");
