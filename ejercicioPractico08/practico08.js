@@ -1,8 +1,8 @@
 
 
 
-function agregarNombre() {
-    
+function agregarNombre(evt) {
+    evt.preventDefault();
     
 
 
