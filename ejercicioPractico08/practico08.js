@@ -1,6 +1,10 @@
 
-/*me falta agregar cosas pero fijarse que copile */
-function insertarNombre() {
+
+
+function agregarNombre() {
+    
+    
+
 
     let nombre = document.getElementsByClassName("nombre");
 
@@ -9,10 +13,9 @@ function insertarNombre() {
     } else {
 
 
-        let cantOpciones= "<li>" + nombre + "</li>";
+        let cantOpciones = "<li>" + nombre + "</li>";
 
-        let listaDeNombres = document.getElementsByClassName("");
-        
+        let listaDeNombres = document.getElementsByClassName("un_listado_de_nombre");
         listaDeNombres.innerHTML += listaDeNombres;
         alert("nombre ingresado");
     }
