@@ -2,7 +2,7 @@
 function insertarNombre() {
   
   
-    let nombre = document.getElementsByClassName("nombre")[0];
+    let nombre = document.getElementsByClassName("nombre")[0].value;
   
     if (nombre == "") {
       alert("El nombre no puede estar vacio");
