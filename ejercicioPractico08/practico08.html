@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="practico08.js"></script>
+  </head>
 
-<body>
+  <body>
     <form>
-        <input class="nombre" type="text" >
-        <button onclick="insertarNombre()">InsertarNombre</button>
+      <input class="nombre" type="text" placeholder="Insertar nombre..." />
+      <button onclick="insertarNombre(event)">Agregar</button>
+
     </form>
-
-
     <div>
-        <ol class="un_listado_de_nombre"></ol>
+      <ul class="lista-nombres"></ul>
     </div>
 
-    <script src="practico08.js"></script>
-</body>
+
+  </body>
 
 </html>

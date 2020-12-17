@@ -1,22 +1,23 @@
 
-function insertarNombre() {
-  
-  
-    let nombre = document.getElementsByClassName("nombre")[0].value;
-  
-    if (nombre == "") {
-      alert("El nombre no puede estar vacio");
-    } else {
+function insertarNombre(evt) {
+  evt.preventDefault();
+
+  let nombre = document.getElementsByClassName("nombre")[0].value;
 
 
-      let opcion = "<li> " + nombre + "</li>";
+
+  if (nombre == "") {
+    alert("El nombre no puede estar vacio");
   
-      let lista = document.getElementsByClassName("lista-nombres")[0];
-      
-      lista.innerHTML += opcion;
   
-      alert("Se ha insertado el nombre");
-    }
-  
+  } else {
+    let opcion = "<li> " + nombre + "</li>";
+
+    let lista = document.getElementsByClassName("lista-nombres")[0];
+
+    lista.innerHTML += opcion;
+
+    alert("Nombre insertado");
   }
-  
+
+}
