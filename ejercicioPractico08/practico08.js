@@ -1,6 +1,6 @@
 
-function insertarNombre(evt) {
-    evt.preventDefault();
+function insertarNombre() {
+  
   
     let nombre = document.getElementsByClassName("nombre").value;
   
