@@ -1,25 +1,19 @@
 
-
-
-function agregarNombre(evt) {
+function insertarNombre(evt) {
     evt.preventDefault();
-    
-
-
-    let nombre = document.getElementsByClassName("nombre")[0];
-
+  
+    let nombre = document.getElementsByClassName("nombre").value;
+  
     if (nombre == "") {
-        alert("el nombre no se puede ingresar vacio");
+      alert("El nombre no puede estar vacio");
     } else {
-
-
-        let cantOpciones = "<li>" + nombre + "</li>";
-
-        let listaDeNombres = document.getElementsByClassName("un_listado_de_nombre")[0];
-       
-        listaDeNombres.innerHTML += listaDeNombres;
-       
-        alert("nombre ingresado");
+      let opcion = "<li> " + nombre + "</li>";
+  
+      let lista = document.getElementsByClassName("lista-nombres");
+      lista.innerHTML += opcion;
+  
+      alert("Se ha insertado el nombre");
     }
-
-}
+  
+  }
+  
