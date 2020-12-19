@@ -1,5 +1,5 @@
 
-/
+
 function Opcionalegir() {
 
     let opciones = document.getElementsByClassName("eleccion");
