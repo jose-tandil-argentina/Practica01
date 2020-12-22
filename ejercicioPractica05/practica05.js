@@ -1,3 +1,5 @@
+
+// toma el texto pasado por el input y lo muestra por pantalla
 function aniadirTexto() {
 
   let texto = document.getElementsByClassName("texto")[0];

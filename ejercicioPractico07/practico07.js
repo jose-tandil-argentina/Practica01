@@ -1,9 +1,8 @@
 
-
-
-
+// este metodo Math.floor devuelve el mayor entero menor o igual a un número dado.
+//  el metodo Math.random devuelve un número pseudoaleatorio de punto flotante en el rango de 0 a menos de 1 (incluido 0, pero no 1) con una distribución aproximadamente uniforme sobre ese rango, que luego puede escalar a su deseado rango
 function getRandomInt(min, max) {
-   return Math.floor(Math.random() * (max - min)) + min; 
+    return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function generarNumeros() {

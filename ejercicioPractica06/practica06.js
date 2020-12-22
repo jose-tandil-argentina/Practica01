@@ -1,5 +1,5 @@
-
-function compararNum(){
+// este metodo compara los numero 
+function compararNum() {
   let num1 = parseInt(document.getElementsByClassName("num1")[0].value);
   let num2 = parseInt(document.getElementsByClassName("num2")[0].value);
 

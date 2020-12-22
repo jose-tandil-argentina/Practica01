@@ -20,28 +20,3 @@ function calularArea() {
     alert((base * altura)/2);
 
 }
-
-
-/*
-function calularArea(){
-    let base = document.getElementsByClassName("num1")[0];
-    let altura = document.getElementsByClassName("num2")[0];
-
-    return (base*altura)/2;
-
-}
-
-/*
-function calularArea(){
-    let base = document.getElementsByClassName("num1")[0];
-    let altura = document.getElementsByClassName("num2")[0];
-
-    let base = calcularArreaTriangulo
-}
-
-
-function calcularArreaTriangulo(base , altura){
-    return (base*altura)/2;
-}
-
-*/
