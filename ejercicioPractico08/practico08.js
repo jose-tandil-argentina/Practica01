@@ -1,4 +1,6 @@
 
+// el metodo lista todo los nombre ingresados por el usuario
+
 function insertarNombre(evt) {
   evt.preventDefault();
 
