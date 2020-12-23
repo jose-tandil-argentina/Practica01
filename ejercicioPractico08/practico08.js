@@ -1,5 +1,5 @@
 
-// el metodo lista todo los nombre ingresados por el usuario
+// el metodo lista todo los nombre ingresados por el usuario al no ingresar el nombre de usuario tira un mensaje de  alerta 
 
 function insertarNombre(evt) {
   evt.preventDefault();
