@@ -11,10 +11,11 @@ function generarNumeros() {
 
     let canTopciones = "";
     for (let i = 0; i < 10; i++) {
-        canTopciones += "<option>" + getRandomInt(1, 100) + "</option>";
+        canTopciones += "<option>" + getRandomInt(1, 10) + "</option>";
     }
 
     elementos.innerHTML = canTopciones;
 
 }
 
+// hacer un metodo con numeros  fijos no aleatorios del 1 al 10 
