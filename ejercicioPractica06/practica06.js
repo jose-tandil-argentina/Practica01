@@ -5,21 +5,23 @@ function compararNum() {
 
 
 
-  if(num1 < num2){
-    alert("el numero 2 es el mayor");
-  }else if(num1 > num2){
-    alert("el numero 1 es el mayor");
-  }else if((num1 == num1)&&(num2==null)){
-    alert("uno de los dos no se lleno");
-  }else if((num1 == null)&&(num2==num2)){
-    alert("uno de los dos no se lleno");
+  if (num1 < num2) {
+    console.log("el numero 2 es el mayor");
+  } else if (num1 == num2) {
+    console.log("son los dos iguales");
+  } else if (num1 > num2) {
+    console.log("el numero 1 es el mayor");
+  } else if ((num1 == num1) || (num2 == null)) {
+    console.log("uno de los dos no se lleno");
+  } else if ((num1 == null) || (num2 == num2)) {
+    console.log("uno de los dos no se lleno");
   }
+}
 
-
-  //if (num1 && num2) {
-    //mejorar   if (num1 >= num2) {
-    //mejorar   if (num1 == num2) {
-     //   alert("Los numeros son iguales")
+//if (num1 && num2) {
+    //mejorar if (num1 >= num2) {
+    //mejorar if (num1 == num2) {
+     // alert("Los numeros son iguales")
       //} else {
        // alert("El num1 es mayor");
      // }
@@ -31,6 +33,6 @@ function compararNum() {
   //}
 
 
-   }
+   //}
 // tirar un msj en verde 
 // en rojo si es error xcfbgchb
