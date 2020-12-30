@@ -18,21 +18,3 @@ function compararNum() {
   }
 }
 
-//if (num1 && num2) {
-    //mejorar if (num1 >= num2) {
-    //mejorar if (num1 == num2) {
-     // alert("Los numeros son iguales")
-      //} else {
-       // alert("El num1 es mayor");
-     // }
-   // } else {
-     // alert("El num2 es mayor")
-    //}
-  //} else {
-   // alert("Uno de los numeros no se relleno")
-  //}
-
-
-   //}
-// tirar un msj en verde 
-// en rojo si es error xcfbgchb
